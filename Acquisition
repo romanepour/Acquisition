@@ -1,0 +1,76 @@
+name: Acquisition
+description: Do you have any issue/ questions related to Traffic and Leads Acquisition? We can help. 
+If it’s related to Paid Channels (Launch or Update a campaign or Google ads, Facebook ads or LinkedIn ads), please use the temporary Notion workspace. 
+labels:
+  - "acquisition"
+assignees:
+  - romanepour
+body:
+  - type: dropdown
+    attributes:
+      label: Region*
+      description: For which region/team are you associated?
+      options:
+        - APAC
+        - CANADA
+        - CHINA
+        - DACH
+        - FRANCE
+        - GERMANY
+        - LATAM BR
+        - LATAM SSC
+        - MEA
+        - NE
+        - NECH
+        - Online
+        - SE
+        - UK
+        - Global Marketing team
+        - Data Team
+        - Engineering Team
+        - S&A Team
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Role*
+      description: What is your role at Le Wagon?
+      placeholder: ## Marketing Manager, City Manager, Sales & Admission Manager, E&C Manager etc. 
+      value:
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Topic associated with your request*
+      options:
+        - "SEO"
+        - "Tracking"
+        - "Referral"
+        - "Google Analytics"
+        - "Acquisition Dashboard"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Request Description*
+      description: Write your request
+      placeholder: Tell us what you want! Please share screenshots and urls 🙏
+      value:
+        ## Context
+        Explain what is happening or what you want. The more details you share with us, the quicker the request will be treated.
+
+        ## Screenshots and URLs
+        Upload screenshots and share URLs here.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: How critical is this request and when would you like it to be addressed?*
+      options:
+        - "Low: within the quarter"
+        - "Medium: within the month"
+        - "High: within the week"
+        - "Critical: By the end of the day"
+    validations:
+      required: true
