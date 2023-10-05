@@ -47,7 +47,7 @@ body:
         - "Tracking"
         - "Referral"
         - "Google Analytics"
-        - "Acquisition Dashboard"
+        - "Acquisition Dashboard/Data"
         - "Other"
     validations:
       required: true
